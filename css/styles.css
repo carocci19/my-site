@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    text-align: center;
 }
 
 h1{
@@ -7,20 +8,23 @@ h1{
 }
 
 .top-container{
-    background-color: #FFFBAC;
-}
-
-.middle-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-}
-.bottom-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
+    background-color: #8DCBE6;
 }
 
 .pro{
     text-decoration: underline;
 }
+
+.top-cloud{
+    position: relative;
+    top: 20px;
+    left:20%;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 20%;
+
+}
+
