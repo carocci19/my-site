@@ -5,36 +5,54 @@ body{
 }
 
 h1{
-    margin-top: 0;
-    font-family: sofia, cursive;
+    margin: 50px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem;
+    color:#66BFBF;
 }
 
 h2{
+    font-size: 2.5rem;
     font-family: 'Zilla Slab', serif;
+    color:#66BFBF;
+    font-weight: normal;
 }
 
 h3{
     font-family: 'Zilla Slab', serif;
+    color:#11999E;
 }
 
+a{
+    color:#11999E;
+}
+
+.img-profile{
+    margin-top: 50px;
+
+}
 .bottom-cloud{
+    height: 150px;
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 20%;
+    bottom: 400px;
 }
 
 .top-cloud{
+    height: 150px;
     position: absolute;
-    top: 20px;
-    right: 300px;
+    top: 10px;
+    right: 20%;
 }
 
 .top-container{
-    background-color: #8DCBE6;
+    background-color: #E3F6FF;
     position: relative;
     padding-top: 100px;
+    line-height: 2;
 }
 
 .pro{
     text-decoration: underline;
 }
+
