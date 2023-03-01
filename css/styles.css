@@ -6,16 +6,50 @@ a{
     text-decoration-line: none;
 }
 
+a:hover{
+    color: #EAF6F6;
+}
+
 body{
     margin: 0;
     text-align: center;
     font-family: 'Mulish', sans-serif;
+    color: #40514E;
 }
+
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem;
+    color:#66BFBF;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Zilla Slab', serif;
+    color:#66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Zilla Slab', serif;
+    color:#11999E;
+}
+
+hr{
+    border: 10px dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin-bottom: 100px;
+}
+
 
 .bottom-container{
     margin-top: 50px;
     padding: 50px 0 50px 0;
     background-color: #66BFBF;
+    font-family: 'Mulish', sans-serif;
 }
 .bottom-cloud{
     height: 150px;
@@ -34,7 +68,7 @@ body{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Mulish', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -64,35 +98,8 @@ body{
 
 .copy-right{
     color: #EAF6F6;
-    margin-top: 50px;
-}
-
-h1{
-    margin: 50px auto 0 auto;
-    font-family: 'Parisienne', cursive;
-    font-size: 5.625rem;
-    color:#66BFBF;
-}
-
-h2{
-    font-size: 2.5rem;
-    font-family: 'Zilla Slab', serif;
-    color:#66BFBF;
-    font-weight: normal;
-}
-
-h3{
-    font-family: 'Zilla Slab', serif;
-    color:#11999E;
-}
-
-hr{
-    border-top: 10px dotted #EAF6F6;
-    border-right: 0;
-    border-bottom: 0;
-    border-left: 0;
-    width: 8%;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    font-size: 0.75rem;
 }
 
 .img-profile{
@@ -110,7 +117,6 @@ hr{
 
 .profile-description{
     width: 30%;
-    color: #40514E;
     margin: 100px auto 100px auto;
     line-height: 2;
 }
