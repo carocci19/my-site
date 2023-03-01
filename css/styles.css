@@ -51,8 +51,9 @@ body{
     text-decoration: none;
   }
 .contact-me{
-    width: 50%;
+    width: 40%;
     margin: auto;
+    line-height: 2;
 
   }
 
@@ -111,6 +112,7 @@ hr{
     width: 30%;
     color: #40514E;
     margin: 100px auto 100px auto;
+    line-height: 2;
 }
 
 .skill-row{
